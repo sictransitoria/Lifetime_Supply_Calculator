@@ -10,6 +10,7 @@ $('#sub').click(function(){
 console.log(numOfCups);
 $("#result_one").html(numOfCups);
 $("#result_two").html(drink);
+	
 	});
 
 });
