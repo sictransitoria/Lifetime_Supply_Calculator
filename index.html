@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html
+	<head>
+		<title>Lifetime Supply Calculator</title>
+		<style>
+
+		body {
+			background-color: #80bfff;
+			color: #ffffff;
+			font-family: Avenir Next, sans-serif;
+			margin: 0 auto;
+			width: 80%;
+
+		}
+
+		h1 {
+			text-align: left;
+			font-weight: 800;
+			font-size: 80px;
+			background-color: #0056b3;
+			padding: 30px;
+			width: 90%;
+			margin: 10px;
+			line-height: 90px;
+
+		}
+
+		fieldset {
+			border: none;
+		
+		}
+
+		#result {
+			text-align: left;
+			font-size: 20px;
+			font-weight: 700;
+			margin-left: 10px;
+			text-align: center;
+
+		}
+
+		label {
+			font-weight: 100;
+			font-size: 25px;
+
+		}
+
+		</style>
+	
+	</head>
+		<body>
+
+			<h1>Lifetime Supply Calculator</h1>
+
+			<fieldset>
+				<label>What is your age?</label>
+				<br>
+				<br>
+				<input type="number" id="age">
+			</fieldset>
+
+			<fieldset>
+				<label>How old do you plan to live to?</label>
+				<br>
+				<br>
+				<input type="number" id="plan">	
+			</fieldset>
+
+			<fieldset>
+				<label>Favorite drink?</label>
+				<br>
+				<br>
+				<select id="drink">
+					<option>liters of soda</option>
+					<option>glasses of wine</option>
+					<option>pints of beers</option>
+					<option>number of shots</option>
+				</select>
+			</fieldset>
+			
+			<fieldset>
+				<label>How many of your favorite drink do you consume a day?</label>
+				<br>
+				<br>
+				<input type="number" id="aDay">
+				<br>
+				<br>
+				<button id="sub">Find Out!</button>
+			</fieldset>
+
+			<h4 id="result">You will drink <span id="result_one"></span> more <span id="result_two"></span> in your lifetime.</h4>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  	<script src="script.js" type="text/javascript"></script>
+		</body>
+</html>
