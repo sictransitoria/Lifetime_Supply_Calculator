@@ -15,7 +15,7 @@ h1 {
 		padding: 30px;
 		width: 90%;
 		margin: 10px;
-		line-height: 90px;
+		line-height: 100px;
 
 }
 
@@ -36,5 +36,17 @@ fieldset {
 label {
 		font-weight: 100;
 		font-size: 25px;
+
+}
+
+button, select {
+		font-size: 15px;
+		font-weight: 100;
+		border-radius: 5px;
+
+}
+
+span {
+	color: #b3ffb3;
 
 }

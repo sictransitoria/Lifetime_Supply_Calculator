@@ -1,3 +1,5 @@
+// Lifetime Suppy Calculator JS
+
 $(document).ready(function(){
 
 $('#sub').click(function(){ 
